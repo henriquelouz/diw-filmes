@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<title>FilmeZilla</title>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+		<a class="navbar-brand" href="#">
+			<i class="fa fa-film text-info"></i> FilmeZilla
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-topo" aria-controls="navbar-topo" aria-expanded="false" aria-label="Alterna navegação">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-topo">
+			<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+				<li class="nav-item">
+					<a class="nav-link" href="#section-lancamentos">Lançamentos</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#section-destaque">Em Destaque</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#section-avaliacoes">Avaliações</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#section-entrevistas">Entrevistas</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#section-novidades">Novidades</a>
+				</li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<div class="input-group mb-3">
+					<input type="text" class="form-control" placeholder="Pesquisar Filme" aria-label="Pesquisar Filme" aria-describedby="basic-addon2">
+					<div class="input-group-append">
+						<button class="btn btn-outline-info" type="button">
+							<i class="fa fa-search"></i>
+						</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</nav>
+
+	<div class="container">
+
+		<!-- Lançamentos -->
+		<section id="section-lancamentos" class="dark-background">
+			<div class="row text-center title-row">
+				<div class="col-12">
+					<h2><strong>Lançamentos</strong></h2>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-12">
+					<div id="carousel-lancamentos" class="carousel slide" data-ride="carousel" data-interval="15000">
+						<ol class="carousel-indicators">
+							<li data-target="#carousel-lancamentos" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel-lancamentos" data-slide-to="1"></li>
+							<li data-target="#carousel-lancamentos" data-slide-to="2"></li>
+							<li data-target="#carousel-lancamentos" data-slide-to="3"></li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<div class="container">
+									<div class="row">
+										<div class="col-lg-6">
+											<iframe width="500" height="330" src="https://www.youtube.com/embed/LBRJhII2wu8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+										</div>
+										<div class="col-lg-6">
+											<h4>
+												<strong class="d-block">Mulan</strong>
+												<small class="text-info">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star-half-alt"></i>
+												</small>
+											</h4>
+											<div class="row">
+												<div class="col-12 lancamento-sinopse">
+													<strong>Sinopse: </strong>A aclamada cineasta Niki Caro dá vida à épica lenda da icônica guerreira chinesa em "Mulan", da Disney, em que uma jovem destemida arrisca a própria vida por amor à família e à pátria para se tornar uma das maiores guerreiras de toda a China. Quando o Imperador da China emite um decreto estabelecendo que um homem de cada família deve servir no exército imperial para defender o país dos invasores do Norte, Hua Mulan, a filha mais velha de um honrado guerreiro se apresenta no lugar de seu pai adoentado. Disfarçada de homem, como Hua Jun, ela é testada a cada etapa do caminho e deve controlar sua força interior e abraçar seu verdadeiro potencial. É uma jornada épica que vai transformá-la em uma reverenciada guerreira e levá-la a conquistar o respeito de uma nação agradecida... e um pai orgulhoso.
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-12">
+													<strong>Elenco: </strong> Liu Yifei | Donnie Yen | Gong Li | Jet Li | Jason Scott Lee
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-6"><strong>Diretor: </strong> Niki Caro</div>
+												<div class="col-6"><strong>Roteiro: </strong> E. Martin</div>
+											</div>
+											<div class="row">
+												<div class="col">
+													<strong>Estreia: </strong> 2020
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="container">
+									<div class="row">
+										<div class="col-lg-6">
+											<iframe width="500" height="330" src="https://www.youtube.com/embed/VvqqrbaMKtk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+										</div>
+										<div class="col-lg-6">
+											<h4>
+												<strong class="d-block">Tenet</strong>
+												<small class="text-info">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star-o"></i>
+												</small>
+											</h4>
+											<div class="row">
+												<div class="col-12 lancamento-sinopse">
+													<strong>Sinopse: </strong>Um agente da CIA, conhecido como O Protagonista, é recrutado por uma organização misteriosa chamada Tenet para participar de uma missão de escala global. Eles precisam impedir que Andrei Sator, um renegado oligarca russo com habilidades de precognição, inicie a Terceira Guerra Mundial. Dominando uma técnica de inversão do tempo, O Protagonista precisará usá-la como forma de se opor à ameaça que está por vir.
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-12">
+													<strong>Elenco: </strong> John David Washington | Robert Pattinson | Elizabeth Debicki
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-6"><strong>Diretor: </strong> Christopher Nolan</div>
+												<div class="col-6"><strong>Roteiro: </strong> Christopher Nolan</div>
+											</div>
+											<div class="row">
+												<div class="col">
+													<strong>Estreia: </strong> 2020
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="container">
+									<div class="row">
+										<div class="col-lg-6">
+											<iframe width="500" height="330" src="https://www.youtube.com/embed/FlriFMTIPOg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+										</div>
+										<div class="col-lg-6">
+											<h4>
+												<strong class="d-block">007 - Sem Tempo Para Morrer</strong>
+												<small class="text-info">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+												</small>
+											</h4>
+											<div class="row">
+												<div class="col-12 lancamento-sinopse">
+													<strong>Sinopse: </strong>Em 007 - Sem Tempo Para Morrer, o famoso espião James Bond (Daniel Craig) deixou o serviço e está vivendo de forma calma e pacífica na Jamaica. Como tudo que é bom dura pouco, quando o enigmático Safin (Rami Malek) aparece com uma tecnologia perigosa, seu amigo da CIA, Felix Leiter (Jeffrey Wright), pede ajuda. Então, o antigo 007 precisa abandonar seu novo modo de vida para ingressar na missão.
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-12">
+													<strong>Elenco: </strong> Daniel Craig | Rami Malek | Léa Seydoux
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-6"><strong>Diretor: </strong> Cary Fukunaga</div>
+												<div class="col-6"><strong>Roteiro: </strong> Phoebe Waller-Bridge</div>
+											</div>
+											<div class="row">
+												<div class="col">
+													<strong>Estreia: </strong> 2020
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="container">
+									<div class="row">
+										<div class="col-lg-6">
+											<iframe width="500" height="330" src="https://www.youtube.com/embed/uGtoEvEjuEk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+										</div>
+										<div class="col-lg-6">
+											<h4>
+												<strong class="d-block">Um Lugar Silencioso - Parte II</strong>
+												<small class="text-info">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star-half-alt"></i>
+													<i class="fa fa-star-o"></i>
+												</small>
+											</h4>
+											<div class="row">
+												<div class="col-12 lancamento-sinopse">
+													<strong>Sinopse: </strong>Em Um Lugar Silencioso - Parte 2, logo após os acontecimentos mortais, a família Abbott precisa agora encarar o terror mundo afora, continuando a lutar para sobreviver em silêncio. Obrigados a se aventurar pelo desconhecido, eles rapidamente percebem que as criaturas que caçam pelo som não são as únicas ameaças que os observam pelo caminho de areia.
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-12">
+													<strong>Elenco: </strong> Emily Blunt | Cillian Murphy | Millicent Simmonds
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-6"><strong>Diretor: </strong> John Krasinski</div>
+												<div class="col-6"><strong>Roteiro: </strong> John Krasinski</div>
+											</div>
+											<div class="row">
+												<div class="col">
+													<strong>Estreia: </strong> 2021
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Em destaque -->
+		<section id="section-destaque">
+			<div class="container">
+				<div class="row title-row">
+					<div class="col-6 col-lg-9">
+						<h2><strong>Em Destaque</strong></h2>
+					</div>
+					<div class="col-6 col-lg-3">
+						<select id="destaque-categorias" name="destaque-categoria" class="form-control">
+							<option value="" style="display:none">Categoria</option>
+							<option value="">Todas</option>
+							<option value="acao">Ação</option>
+							<option value="aventura">Aventura</option>
+							<option value="romance">Romance</option>
+							<option value="comedia">Comédia</option>
+							<option value="suspense">Suspense</option>
+							<option value="terror">Terror</option>
+						</select>
+					</div>
+				</div>
+				<div class="row">
+					<div class="poster-destaque col-12 col-md-6 col-lg-3">
+						<img src="img/interestelar-poster.jpg" alt="Interestelar">
+					</div>
+					<div class="poster-destaque col-12 col-md-6 col-lg-3">
+						<img src="img/whiplash-poster.jpg" alt="Whiplash">
+					</div>
+					<div class="poster-destaque col-12 col-md-6 col-lg-3">
+						<img src="img/lotr-poster.jpg" alt="Senhor dos Anéis - O Retorno do Rei">
+					</div>
+					<div class="poster-destaque col-12 col-md-6 col-lg-3">
+						<img src="img/truman-poster.jpg" alt="Interestelar">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<button class="btn btn-info float-right"><i class="fa fa-plus fa-sm"></i> Carregar Mais Filmes</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Últimas avaliações -->
+		<section id="section-avaliacoes">
+			<div class="container">
+				<div class="row title-row">
+					<div class="col-12">
+						<h2><strong>Últimas Avaliações</strong></h2>
+					</div>
+				</div>
+				<div class="row cards-avaliacao">
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="card">
+							<div class="card-body">
+								<div class="row">
+									<div class="col-2">
+										<i class="fa fa-user-circle fa-2x"></i>
+									</div>
+									<div class="col-10">
+										<h5 class="card-title">Mike Wazowski</h5>
+										<h6 class="card-subtitle mb-2 text-muted">Sobre <a href="#" class="text-info">Monstros S.A.</a></h6>
+										<p class="card-text">Não dá pra acreditar! Eu tô na TV!!! Você me viu? Eu sou um galã!</p>
+										<small class="text-info align-top">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</small>
+										<small class="float-right">
+											<b>14/11/2001</b>
+										</small>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="card">
+							<div class="card-body">
+								<div class="row">
+									<div class="col-2">
+										<i class="fa fa-user-circle fa-2x"></i>
+									</div>
+									<div class="col-10">
+										<h5 class="card-title">Terence Fletcher</h5>
+										<h6 class="card-subtitle mb-2 text-muted">Sobre <a href="#" class="text-info">Whiplash</a></h6>
+										<p class="card-text">NÃO ESTÁ NO MEU TEMPO!</p>
+										<small class="text-info align-top">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star-o"></i>
+											<i class="fa fa-star-o"></i>
+											<i class="fa fa-star-o"></i>
+											<i class="fa fa-star-o"></i>
+										</small>
+										<small class="float-right">
+											<b>16/01/2014</b>
+										</small>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="card">
+							<div class="card-body">
+								<div class="row">
+									<div class="col-2">
+										<i class="fa fa-user-circle fa-2x"></i>
+									</div>
+									<div class="col-10">
+										<h5 class="card-title">Imperador Kuzco</h5>
+										<h6 class="card-subtitle mb-2 text-muted">Sobre <a href="#" class="text-info">A Nova Onda do Imperador</a></h6>
+										<p class="card-text">Minha cara! Minha cara linda e macia! Eu virei uma lhama feia e fedorenta!</p>
+										<small class="text-info align-top">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star-o"></i>
+											<i class="fa fa-star-o"></i>
+										</small>
+										<small class="float-right">
+											<b>29/12/2000</b>
+										</small>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<button class="btn btn-info float-right"><i class="fa fa-plus fa-sm"></i> Carregar Mais Avaliações</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Entrevistas & Making of -->
+		<section id="section-entrevistas" class="dark-background">
+			<div class="container">
+				<div class="row title-row">
+					<div class="col-12">
+						<h2><strong>Entrevistas & Making of</strong></h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="card">
+							<iframe width="200" height="250" src="https://www.youtube.com/embed/Wu9XPEdBelY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<div class="card-body">
+								<h5 class="card-title">O Hobbit: A Desolação de Smaug</h5>
+								<p class="card-text">
+									<strong>Diretor:</strong> Peter Jackson
+									<br>
+									<strong>Roteiro:</strong> Fran Walsh 
+									<span class="float-right"><strong> Estreia: </strong> 2013</span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="card">
+							<iframe width="200" height="250" src="https://www.youtube.com/embed/G61QhQjsvpw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<div class="card-body">
+								<h5 class="card-title">Vingadores: Ultimato</h5>
+								<p class="card-text">
+									<strong>Diretores:</strong> Joe Russo, Anthony Russo
+									<br>
+									<strong>Roteiro:</strong> Christopher Markus
+									<span class="float-right"><strong> Estreia: </strong> 2019</span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="card">
+							<iframe width="200" height="250" src="https://www.youtube.com/embed/U9kK-CbqH0k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<div class="card-body">
+								<h5 class="card-title">Mad Max: Estrada da Fúria</h5>
+								<p class="card-text">
+									<strong>Diretor:</strong> George Miller
+									<br>
+									<strong>Roteiro:</strong> George Miller
+									<span class="float-right"><strong> Estreia: </strong> 2015</span>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Novidades, Sobre e Editorial -->
+		<section id="section-novidades">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-9 novidades-col">
+						<h2><strong>Novidades</strong></h2>
+						<div class="row">
+							<div class="col-12 col-md-4">
+								<img src="img/coringa.jpg" alt="Coringa">
+							</div>
+							<div class="col-12 col-md-8">
+								<h4>'Coringa': por que a violência do filme sobre vilão do Batman causa polêmica</h4>
+								<p>
+									"Por que tão sério?" A clássica frase do Coringa poderia muito bem ser dirigida àqueles que agora criticam a mais recente incursão do icônico personagem dos quadrinhos no cinema.
+								</p>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-12 col-md-4">
+								<img src="img/sirius-black.jpg" alt="Sirius Black">
+							</div>
+							<div class="col-12 col-md-8">
+								<h4>Conheça a história de Sirius Black, o padrinho de Harry Potter</h4>
+								<p>
+									Sirius Black é um dos personagens mais queridos e importantes da saga. Ele tinha 36 anos quando foi morto por Bellatrix Lestrange (sua prima), durante uma batalha travada entre a Ordem da Fênix e os Comensais da Morte.
+								</p>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-12 col-md-4">
+								<img src="img/stephen-king.jpg" alt="Coringa">
+							</div>
+							<div class="col-12 col-md-8">
+								<h4>Os vilões mais assustadores criados por Stephen King</h4>
+								<p>
+									Pode ser que criação aterrorizante mais conhecida do autor seja o palhaço Pennywise, de It – A Coisa, mas ele definitivamente não está sozinho no panteão de antagonistas sombrios criados por King.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-lg-3 sobre-col">
+						<div class="row">
+							<div class="col-12">
+								<h2><strong>Sobre</strong></h2>
+								<p>Este website é a prova cabal de que até um desenvolvedor back-end que não sabe desenhar nem um bonequinho de palito consegue fazer uma página responsiva, graças ao Bootstrap. O autor dele tem 23 anos, mora em Belo Horizonte - MG, trabalha há 5 anos como desenvolvedor, há 2 como back-end, e já passeou desde o javascript até o R e o Go.</p>
+								<p> - Eu amo minha profissão, e dedicar um tempinho pra aprender as outras ramificações dessa área de tecnologia é sempre muito divertido e proveitoso.</p>
+								<h2><strong>Editorial</strong></h2>
+								<p><b><i class="fa fa-globe-europe text-info"></i> Redação: </b> Internet</p>
+								<p><b><i class="fa fa-user text-info"></i> Pesquisa: </b> Henrique Louzada</p>
+								<p><b><i class="fa fa-user text-info"></i> Gerente Geral: </b> Henrique Louzada</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12">
+								<h4><strong>Redes Sociais</strong></h4>
+								<div class="row">
+									<div class="col-1"><a href="https://www.github.com/henriquelouz/" target="_blank" class="text-info"><i class="fab fa-github-square fa-2x"></i></a></div>
+									<div class="col-1"><a href="https://www.linkedin.com/in/henriquelouz/" target="_blank" class="text-info"><i class="fab fa-linkedin fa-2x"></i></a></div>
+									<div class="col-1"><a href="https://www.instagram.com/halouzada/" target="_blank" class="text-info"><i class="fab fa-instagram fa-2x"></i></a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<footer class="dark-background">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-10 text-left copyright-col">
+					<i class="far fa-copyright"></i> Copyright 2020 - Disciplina de Desenvolvimento de Interfaces Web - <b>ICEI PUC Minas</b>
+				</div>
+				<div class="col-12 col-md-2 footer-icon">
+					<i class="fa fa-film text-info"></i> FilmeZilla
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/1f598b9b74.js" crossorigin="anonymous"></script>
+</body>
+</html>
