@@ -14,6 +14,11 @@ function carregaGeneros() {
 		listaGeneros[genero.id] = genero.name;
 		selectGenero.innerHTML += `<option value="${genero.id}">${genero.name}</option>`;
 	}
+
+	let xhrEmCartaz = new XMLHttpRequest();
+	xhrEmCartaz.onload = exibeFilmesEmCartaz;
+	xhrEmCartaz.open('GET', `${BASE_API_URL}movie/now_playing?api_key=${API_KEY}&language=pt-BR&page=1`);
+	xhrEmCartaz.send();
 }
 
 function exibeFilmesEmCartaz() {
@@ -237,11 +242,6 @@ function buscaInformacoesIniciais() {
 	xhrGeneros.onload = carregaGeneros;
 	xhrGeneros.open('GET', `${BASE_API_URL}genre/movie/list?api_key=${API_KEY}&language=pt-BR`);
 	xhrGeneros.send();
-
-	let xhrEmCartaz = new XMLHttpRequest();
-	xhrEmCartaz.onload = exibeFilmesEmCartaz;
-	xhrEmCartaz.open('GET', `${BASE_API_URL}movie/now_playing?api_key=${API_KEY}&language=pt-BR&page=1`);
-	xhrEmCartaz.send();
 
 	let xhrDestaque = new XMLHttpRequest();
 	xhrDestaque.onload = exibeFilmesEmDestaque;

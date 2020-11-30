@@ -130,7 +130,6 @@ function exibeLista() {
 	`;
 
 	sectionPesquisa.innerHTML = texto;
-	console.log(lista);
 }
 
 let xhrPesquisa = new XMLHttpRequest();
