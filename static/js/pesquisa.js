@@ -35,7 +35,7 @@ function exibeLista() {
 				}
 
 				texto += `
-					<a href="/filme.html?id=${registro.id}" target="_blank" class="list-group-item list-group-item-action flex-column align-items-start">
+					<a href="/diw-filmes/filme.html?id=${registro.id}" target="_blank" class="list-group-item list-group-item-action flex-column align-items-start">
 						<div class="row">
 							<div class="col-12 col-md-1">
 								<img src="${registro.poster_path?BASE_IMG_URL+registro.poster_path:DEFAULT_IMAGE}">
@@ -111,7 +111,7 @@ function exibeLista() {
 	for (i = 1; i <= lista.total_pages; i++) {
 		paginas += `
 			<li class="page-item ${lista.page==i?"disabled":""}">
-				<a class="page-link text-info" href="/pesquisa.html?query=${query}&page=${i}">${i}</a>
+				<a class="page-link text-info" href="/diw-filmes/pesquisa.html?query=${query}&page=${i}">${i}</a>
 			</li>
 		`;
 	}
@@ -140,6 +140,6 @@ xhrPesquisa.send();
 
 
 document.getElementById("pesquisa-form").addEventListener("submit", function(e) {
-	window.location.href = `/pesquisa.html?query=${document.getElementById("input-search").value}`;
+	window.location.href = `/diw-filmes/pesquisa.html?query=${document.getElementById("input-search").value}`;
 	e.preventDefault();
 });
